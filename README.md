@@ -5,8 +5,8 @@
 ## Part 5 Design Challenge
 ### How to run?
 
-Download http://nlp.stanford.edu/data/glove.42B.300d.zip 
-Create `glove_path` folder and unzip `glove.42B.300d.txt` into folder 
+Download http://nlp.stanford.edu/data/glove.42B.300d.zip\
+Create new `glove_path` folder in `part 5 design challenge` and unzip content into folder 
 
 Before starting to run the code, make sure there are no `.p5.out` files in `data` and `test` folders (delete if any)
 
@@ -37,8 +37,8 @@ After training is complete,
  2. Results will be printed on screen
  
  #### For testing
- For testing of the test set, (note this procedure is similar to prediction except for the folder and file name) 
- after training is complete,
+ For testing of the test set, after training is complete,\
+ (this procedure is similar to prediction except for the folder and file name) 
  1. Open `predict.py` file and modify:\
  `main_path = 'test'`\
  `kind = 'test'`\
