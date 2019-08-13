@@ -5,8 +5,8 @@
 ## Part 5 Design Challenge
 ### How to run?
 
-Download http://nlp.stanford.edu/data/glove.42B.300d.zip\
-Create new `glove_path` folder in `part 5 design challenge` and unzip content into folder 
+Download http://nlp.stanford.edu/data/glove.42B.300d.zip \
+Create new `glove_path` folder in `part 5 design challenge` and unzip contents into folder 
 
 Before starting to run the code, make sure there are no `.p5.out` files in `data` and `test` folders (delete if any)
 
