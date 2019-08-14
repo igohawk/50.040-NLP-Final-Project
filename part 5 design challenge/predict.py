@@ -32,6 +32,9 @@ kind = 'test'  ## generate [kind].p5.out
 ################################################################################
 
 
+## code below reads the prediction dataset from respective path defined above,
+## load the previous dictionaries generated after running training script
+
 maxlen = 72
 if test_lang == 'ES':
     maxlen = 187
@@ -53,6 +56,9 @@ print('Prediction model loaded')
 data_path = '{}/{}/{}.in'.format(main_path, test_lang, kind)
 print('Data Path is : ', data_path)
 
+
+## the function, takes in path where file whose prediction is to be generated is located.
+## then, we need to convert those raw text into sequence of numbers of list of list
 
 def load_data(data_path):
     sent_index = []
@@ -83,12 +89,17 @@ def load_data(data_path):
     return X, sentences
 
 
-# def predict_output(model):
 import numpy as np
 
+## X_test is the numerical form of dataset present in data_path
 X_test, data_test = load_data(data_path)
+
+## loading the trained model and prediction of values
+
 p = loaded_model.predict(X_test)
 
+## section of code below, takes in prediction p, and writes output, as ***.p1.out file
+## which can later be used by evalScripy.py file
 y_pred = []
 print('Writing to : ', data_path)
 for index, x_val in enumerate(X_test):

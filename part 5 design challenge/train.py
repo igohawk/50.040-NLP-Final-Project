@@ -3,7 +3,13 @@ import os
 import numpy as np
 
 GLOVE_DIR = "glove_path"
+
+## create dictionary
 embeddings_index = {}
+
+## here, we load glove, and fill the dictionary above with values of glove
+## dictionary key will be words
+## dictionary value will be corresponding vectors in 300 dimension
 f = open(os.path.join(GLOVE_DIR, 'glove.42B.300d.txt'), encoding="utf-8")
 for line in f:
     values = line.split()
@@ -14,7 +20,7 @@ f.close()
 
 print('Total %s word vectors.' % len(embeddings_index))
 
-## train model
+## Some dependency imports
 import tensorflow as tf
 import pandas as pd
 import os
@@ -25,8 +31,10 @@ main_path = 'data'
 train_lang = 'EN'  ## ES,EN
 ################################################################################
 
+## path to training data
 data_path = os.path.join(os.getcwd(), '{}/{}/train'.format(main_path, train_lang))
 
+## load the dataset, and convert them into pandas dataframe for easy manipulation of data
 sent_index = []
 text = []
 label = []
@@ -51,7 +59,13 @@ ner_data['sentence_idx'] = sent_index
 ner_data['word'] = text
 ner_data['tag'] = label
 
+## now we have dataset in a pandas dataframe called ner_data
 
+print('The Processed Dataset in pandas is :')
+print(ner_data.head())
+
+## now we have data in dataframe format, we can easily convert the data into something computer can understand
+## This class reads the data from train file line by line, and converts the dataset into chunks of sentences
 class SentenceGetter(object):
 
     def __init__(self, dataset):
@@ -73,11 +87,22 @@ class SentenceGetter(object):
 
 
 getter = SentenceGetter(ner_data)
+
+## by this point, your raw dataset is in format:
+## as list of list
+## eg. [['hello', 'there'], ['i', 'find', 'sia', 'the', 'greatest'], ['the', 'greatest', 'is', 'a song', 'okay']]
 sentences = getter.sentences
 
+## now, for here, in this phase, we begin the conversion of raw tokes above into numbers
+
+## maxlen is the length of maximum length sentence in dataset
 maxlen = max([len(s) for s in sentences])
 print('Maximum sequence length:', maxlen)
 
+## 'words' is list of unique tokens in our training dataset
+## Without glove, previously, if no. of unique word was 20000,
+## then each word would need to be represented in format like,
+## I -> [1,0,0,0,...... 20000 zeroes],cat --> [0,1,0,0,0,.....]
 words = list(set(ner_data["word"].values))
 words.append("ENDPAD")
 words.append("NA")
@@ -88,6 +113,7 @@ n_words = len(words)
 word2idx = {w: i for i, w in enumerate(words)}
 tag2idx = {t: i for i, t in enumerate(tags)}
 
+## here we use the dictionary we loaded to generate vectors for words in our current training dataset
 EMBEDDING_DIM = 300
 embedding_matrix = np.random.random((len(word2idx) + 1, EMBEDDING_DIM))
 for word, i in word2idx.items():
@@ -105,6 +131,8 @@ for word, i in word2idx.items():
 idx2word = {v: k for k, v in word2idx.items()}
 idx2tag = {v: k for k, v in tag2idx.items()}
 
+## now, we can train the model
+## building the model
 import numpy as np
 from keras.preprocessing.sequence import pad_sequences
 from keras.callbacks import Callback, ReduceLROnPlateau, ModelCheckpoint, EarlyStopping
@@ -151,10 +179,12 @@ early_stop = EarlyStopping(monitor='val_loss', min_delta=0, patience=3,
 
 model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
 
+## training begins here
 history = model.fit(X_train, np.array(y_train), batch_size=16, epochs=30,
                     validation_split=0.2, verbose=1, validation_data=(X_dev, np.array(y_dev)),
                     callbacks=[reduce_lr, checkpoint, early_stop])
 
+## saving model and dictionaires to load them later in prediction script
 print('saving dictionairies')
 import pickle
 
