@@ -35,13 +35,13 @@ dinner O
 . O
 
 This O
-place B-positive
+place O
 has O
 ruined O
 me O
 for O
-neighborhood O
-sushi B-positive
+neighborhood B-positive
+sushi I-positive
 . O
 
 I O
@@ -186,7 +186,7 @@ citysearch O
 for O
 the O
 same O
-place B-positive
+place O
 is O
 because O
 they O
@@ -254,8 +254,8 @@ order O
 . O
 
 Great O
-Indian O
-Food B-positive
+Indian B-positive
+Food I-positive
 ! O
 
 cirspy O
@@ -312,7 +312,7 @@ hungry O
 best O
 honey O
 walnyt O
-prawns B-positive
+prawns O
 that O
 we O
 have O
@@ -344,7 +344,7 @@ Someone O
 else O
 recommended O
 the O
-dessert B-positive
+dessert O
 - O
 we O
 also O
@@ -353,7 +353,7 @@ that O
 . O
 
 This O
-place B-positive
+place O
 is O
 the O
 most O
@@ -499,7 +499,7 @@ and O
 drink O
 ... O
 this O
-place B-positive
+place O
 is O
 not O
 worth O
@@ -536,7 +536,7 @@ I O
 had O
 with O
 this O
-place B-positive
+place O
 was O
 the O
 complete O
@@ -550,7 +550,7 @@ I O
 got O
 there O
 the O
-place B-positive
+place O
 was O
 packed O
 but O
@@ -620,7 +620,7 @@ open O
 
 The O
 best O
-place B-positive
+place O
 for O
 a O
 leisure O
@@ -691,7 +691,7 @@ looking O
 for O
 a O
 good O
-place B-positive
+place O
 to O
 host O
 an O
@@ -757,7 +757,7 @@ seeing O
 the O
 very O
 creative O
-menu B-positive
+menu O
 . O
 
 The O
@@ -786,10 +786,10 @@ goat O
 cheese O
 , O
 the O
-penne O
-w O
-/ O
-chicken O
+penne B-positive
+w I-positive
+/ I-positive
+chicken I-positive
 had O
 bones O
 in O
@@ -920,7 +920,7 @@ fantastic O
 at O
 this O
 fun O
-place B-positive
+place O
 . O
 
 I O
@@ -928,8 +928,8 @@ had O
 their O
 eggs B-positive
 benedict I-positive
-for O
-brunch O
+for I-positive
+brunch I-positive
 , O
 which O
 were O
@@ -1045,14 +1045,14 @@ and O
 having O
 dinner O
 and O
-drinks B-positive
+drinks O
 ! O
 
 There O
 is O
 only O
 one O
-place B-positive
+place O
 on O
 the O
 east O
@@ -1094,11 +1094,11 @@ especially O
 their O
 more O
 basic O
-dishes B-positive
+dishes O
 , O
 and O
 the O
-drinks B-positive
+drinks O
 are O
 delicious O
 . O
@@ -1304,7 +1304,7 @@ it O
 . O
 
 Tiny O
-dessert B-positive
+dessert O
 was O
 $ O
 8.00 O
@@ -1338,7 +1338,7 @@ split O
 rather O
 than O
 one O
-appetizer B-positive
+appetizer O
 and O
 entree O
 per O
@@ -1374,7 +1374,7 @@ bad O
 The O
 frizzy O
 retro O
-girl B-negative
+girl O
 ( O
 with O
 winged O
@@ -1485,7 +1485,7 @@ I've O
 gone O
 here O
 , O
-Bark B-positive
+Bark O
 always O
 delivers O
 on O
@@ -1526,7 +1526,7 @@ chefs O
 decide O
 to O
 use O
-fish B-positive
+fish O
 that's O
 half-way O
 decent O
@@ -1549,9 +1549,9 @@ let O
 me O
 finish O
 my O
-glass O
-of O
-wine B-positive
+glass B-positive
+of I-positive
+wine I-positive
 before O
 offering O
 another O
@@ -1563,7 +1563,7 @@ various O
 Greek O
 and O
 Cypriot O
-dishes B-positive
+dishes O
 are O
 excellent O
 , O
@@ -1613,7 +1613,7 @@ Even O
 though O
 its O
 good O
-seafood B-positive
+seafood O
 , O
 the O
 prices O
@@ -1623,7 +1623,7 @@ high O
 . O
 
 Great O
-place B-positive
+place O
 , O
 great O
 value O
@@ -1636,7 +1636,7 @@ the O
 food B-positive
 
 this O
-place B-positive
+place O
 had O
 ALL O
 the O
@@ -1648,7 +1648,7 @@ all O
 . O
 
 great O
-beer O
+beer B-positive
 
 lobster B-positive
 was O
@@ -1704,7 +1704,7 @@ lacking O
 However O
 , O
 this O
-place B-positive
+place O
 is O
 a O
 gem O
@@ -1743,7 +1743,7 @@ that O
 we O
 ordered O
 were O
-prawns B-positive
+prawns O
 and O
 scallop O
 with O
@@ -1754,7 +1754,7 @@ Suan B-positive
 is O
 a O
 great O
-place B-positive
+place O
 that O
 I O
 often O
@@ -1785,7 +1785,7 @@ won't O
 go O
 to O
 this O
-place B-positive
+place O
 again O
 for O
 a O
@@ -1834,8 +1834,8 @@ expensive O
 than O
 your O
 average O
-bagel O
-place B-positive
+bagel B-positive
+place I-positive
 . O
 
 Two O
@@ -1906,7 +1906,7 @@ fun O
 was O
 dry O
 ; O
-pork B-positive
+pork O
 shu O
 mai O
 was O
@@ -1946,8 +1946,8 @@ it O
 If O
 you O
 like O
-spicy O
-food B-positive
+spicy B-positive
+food I-positive
 get O
 the O
 chicken O
@@ -1955,7 +1955,7 @@ vindaloo O
 . O
 
 This O
-place B-positive
+place O
 , O
 which O
 is O
@@ -1989,7 +1989,7 @@ quite O
 expert O
 on O
 the O
-cuisine B-positive
+cuisine O
 . O
 
 For O
@@ -2148,7 +2148,7 @@ Price O
 and O
 quality O
 of O
-fish B-positive
+fish O
 alone O
 will O
 keep O
@@ -2197,14 +2197,14 @@ store O
 . O
 
 This O
-place B-positive
+place O
 has O
 the O
 best O
 Chinese B-positive
-style O
-BBQ O
-ribs O
+style I-positive
+BBQ I-positive
+ribs I-positive
 in O
 the O
 city O
@@ -2312,7 +2312,7 @@ glasses O
 
 The O
 lunch O
-menu B-positive
+menu O
 is O
 an O
 awesome O
@@ -2326,7 +2326,7 @@ smoked O
 salmon O
 and O
 roe O
-appetizer B-positive
+appetizer O
 and O
 it O
 was O
@@ -2348,7 +2348,7 @@ great O
 review O
 about O
 this O
-place B-positive
+place O
 . O
 
 You O
@@ -2486,7 +2486,7 @@ as O
 were O
 the O
 filling O
-pasta B-positive
+pasta O
 mains O
 . O
 
@@ -2541,7 +2541,7 @@ prices O
 Yes O
 , O
 the O
-place B-positive
+place O
 is O
 classy O
 and O
@@ -2583,14 +2583,14 @@ a O
 stranger O
 to O
 this O
-place B-positive
+place O
 for O
 so O
 long O
 ... O
 the O
 fajita O
-salad B-positive
+salad O
 , O
 the O
 colorado O
@@ -2614,7 +2614,7 @@ Furthermore O
 , O
 while O
 the O
-fish B-positive
+fish O
 is O
 unquestionably O
 fresh O
@@ -2637,7 +2637,7 @@ tasty O
 but O
 the O
 sitting O
-space B-negative
+space O
 was O
 too O
 small O
@@ -2685,7 +2685,7 @@ go O
 back O
 to O
 this O
-place B-positive
+place O
 again O
 . O
 
@@ -2696,7 +2696,7 @@ the O
 corner O
 from O
 this O
-place B-positive
+place O
 for O
 over O
 a O
@@ -2710,7 +2710,7 @@ there O
 
 – O
 This O
-place B-positive
+place O
 is O
 unbelievably O
 over-rated O
@@ -2724,7 +2724,7 @@ bartender O
 for O
 the O
 SEASONAL O
-beer B-positive
+beer O
 ! O
 ! O
 ! O
@@ -2732,7 +2732,7 @@ beer B-positive
 Also O
 , O
 the O
-sandwiches B-negative
+sandwiches O
 ( O
 nearing O
 $ O
@@ -2743,7 +2743,7 @@ come O
 with O
 anything O
 like O
-chips B-positive
+chips O
 or O
 a O
 side O
@@ -2764,7 +2764,7 @@ the O
 entire O
 time O
 a O
-place B-positive
+place O
 is O
 open O
 , O
@@ -2829,7 +2829,7 @@ off O
 . O
 
 The O
-place B-positive
+place O
 is O
 a O
 BISTRO O
@@ -2837,9 +2837,9 @@ which O
 means O
 : O
 simple O
-dishes B-positive
+dishes O
 and O
-wine B-positive
+wine O
 served O
 efficiently O
 in O
@@ -2858,7 +2858,7 @@ recommend O
 a O
 better O
 Shanghai O
-place B-positive
+place O
 in O
 New O
 York O
@@ -3062,7 +3062,7 @@ a O
 variety O
 of O
 the O
-beer B-positive
+beer O
 ( O
 cold O
 and O
@@ -3087,7 +3087,7 @@ there O
 are O
 NO O
 MEAT O
-dishes B-positive
+dishes O
 whatsoever O
 . O
 
@@ -3118,7 +3118,7 @@ $ O
 . O
 
 The O
-menu B-positive
+menu O
 is O
 limited O
 but O
@@ -3126,7 +3126,7 @@ almost O
 all O
 of O
 the O
-dishes B-positive
+dishes O
 are O
 excellent O
 . O
@@ -3139,7 +3139,7 @@ NYU O
 i O
 need O
 a O
-place B-positive
+place O
 to O
 eat O
 after O
@@ -3162,7 +3162,7 @@ by O
 . O
 
 The O
-owner B-positive
+owner O
 truly O
 caters O
 to O
@@ -3278,7 +3278,7 @@ outing O
 . O
 
 The O
-place B-positive
+place O
 is O
 small O
 and O
@@ -3337,7 +3337,7 @@ nice O
 to O
 see O
 a O
-place B-positive
+place O
 that O
 bucks O
 that O
@@ -3461,7 +3461,7 @@ of O
 all O
 , O
 this O
-place B-positive
+place O
 is O
 * O
 not O
@@ -3502,7 +3502,7 @@ bill O
 The O
 Prix O
 Fixe O
-menu B-positive
+menu O
 is O
 worth O
 every O
@@ -3533,7 +3533,7 @@ is O
 a O
 nice O
 cozy O
-place B-positive
+place O
 with O
 good O
 pizza B-positive
@@ -3616,7 +3616,7 @@ wait O
 , O
 because O
 the O
-place B-positive
+place O
 is O
 pretty O
 tiny O
@@ -3637,7 +3637,7 @@ one O
 sink O
 , O
 the O
-girl B-negative
+girl O
 was O
 staying O
 totally O
@@ -3656,9 +3656,9 @@ dispenser O
 Went O
 to O
 this O
-place B-positive
+place O
 this O
-place B-positive
+place O
 on O
 a O
 real O
@@ -3731,7 +3731,7 @@ were O
 planning O
 to O
 get O
-dessert B-positive
+dessert O
 but O
 the O
 waitress B-negative
@@ -3810,10 +3810,10 @@ Not O
 much O
 of O
 a O
-selection O
-of O
-bottled O
-beer B-positive
+selection B-positive
+of I-positive
+bottled I-positive
+beer I-positive
 either O
 , O
 we O
@@ -3844,7 +3844,7 @@ t O
 go O
 to O
 this O
-place B-positive
+place O
 ! O
 
 To O
@@ -3933,7 +3933,7 @@ necessarily O
 fanatical O
 about O
 this O
-place B-positive
+place O
 , O
 but O
 it O
@@ -3977,7 +3977,7 @@ nearby O
 . O
 
 This O
-place B-positive
+place O
 has O
 totally O
 weird O
@@ -4020,7 +4020,7 @@ Schooner O
 or O
 Later's O
 charming O
-location B-positive
+location O
 along O
 the O
 marina O
